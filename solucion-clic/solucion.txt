@@ -1,0 +1,4 @@
+function saludar(event) {
+  alert("¡Hola! Has hecho clic en el botón.");
+  event.stopPropagation(); // Detiene la propagación del evento
+}
